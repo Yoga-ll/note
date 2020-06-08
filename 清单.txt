@@ -1,0 +1,8 @@
+1、Java基础，io，多线程，集合等相关
+2、springboot开发，springcloud开发
+3、设计模式，反射
+4、vue+elementui
+5、redis缓存
+6、数据库
+7、linux
+8、kafka

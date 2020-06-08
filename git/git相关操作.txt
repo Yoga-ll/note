@@ -1,0 +1,5 @@
+实例化本地仓库：git init
+创建远程仓库：git remote add origin git@github.com:xxxxxx.git
+将本地push到远程：git push origin master
+创建分支：git checkout -b dev
+

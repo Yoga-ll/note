@@ -1,0 +1,18 @@
+1、微服务启动三部曲
+	·pom文件导入jar包
+	·yam文件中加入配置
+	·启动类加入注解
+
+2、注册中心Eureka
+	·Eureka有自我保护机制，一般需要关闭，自我保护的时候不能剔除服务（源码）
+
+3、负载均衡Ribbon\feign
+
+4、熔断hystrix
+
+5、网关zuul
+
+6、链路追踪sleuth+zipkin（可视化工具）
+
+7、配置中心config
+

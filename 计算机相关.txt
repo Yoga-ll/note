@@ -1,0 +1,2 @@
+查看端口被占用：netstat -ano|findstr +端口
+kill进程： taskkill /f /pid +pid号
