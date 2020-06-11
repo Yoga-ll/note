@@ -14,7 +14,7 @@ yum -y install docker-ce
 systemctl start docker
 
 查看docker版本
-docker-version
+docker -v
 
 配置镜像加速
 mkdir -p /etc/docker
@@ -22,6 +22,7 @@ vim  /etc/docker/daemon.json
 在文件中添加如下配置
  #阿里云镜像加速器
 {"registry-mirrors": ["http://hub-mirror.c.163.com"] }
+
 systemctl daemon-reload
 systemctl restart docker
 
