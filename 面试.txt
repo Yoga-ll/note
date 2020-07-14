@@ -1,0 +1,9 @@
+1、Bean的实例化过程？
+	1）、容器初始化的时候实例化Bean对象
+	2）、设置对象属性
+	3）、检查各种Aware接口并设置依赖
+	4）、调用BeanPostProcessor的postProcessBeforeInitialzation方法
+	5）、调用InitializingBean的afterPropertiesSet方法
+	6）、调用init-method方法
+	7）、容器关闭后，调用DisposableBean的destory方法
+	8）、调用destory-method方法
