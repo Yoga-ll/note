@@ -1,0 +1,6 @@
+//查看分区
+SQL> select table_name,partition_name from user_tab_partitions where table_name='table_name';
+
+//查询分区数据
+select count(*) from table_name partition(part_name);
+
